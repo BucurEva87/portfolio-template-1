@@ -23,6 +23,8 @@ body {
   background-size: 51.8%;
   padding: 10.3rem 2.4rem 4.5rem 2.4rem;
   border-top-left-radius: 8rem;
+  display: flex;
+  flex-direction: column;
 }
 
 #contact h1 {
