@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  min-width: 37.5rem;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+#contact {
+  background: #6070ff url('../img/contact-form-shapes-mobile.png') no-repeat right top;
+  background-size: 51.8%;
+  padding: 10.3rem 2.4rem 4.5rem 2.4rem;
+  border-top-left-radius: 8rem;
+}
+
+#contact h1 {
+  font: 700 4rem/5.2rem 'Poppins', sans-serif;
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-bottom: 1.2rem;
+}
+
+#contact p {
+  font: 400 2rem/2.8rem 'Poppins', sans-serif;
+  color: white;
+  text-align: center;
+  margin-bottom: 8.7rem;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  border-radius: 0.8rem;
+  border: none;
+  margin-bottom: 2rem;
+  padding: 1.5rem 3.8rem 1.5rem 1.6rem;
+}
+
+#contact textarea {
+  height: 17rem;
+}
+
+#contact button {
+  padding: 1.2rem 1.6rem;
+  background-color: white;
+  border: 0;
+  border-radius: 0.8rem;
+  color: #6070FF;
+  font: 400 1.7rem/2.4rem 'Poppins', sans-serif;
+  letter-spacing: 0.03rem;
+  cursor: pointer;
+}
